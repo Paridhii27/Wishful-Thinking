@@ -2,15 +2,15 @@
   "name": "openai-quickstart-node",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Paridhii27.github.io/Wishful-Thinking",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export -o build",
     "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "next": "^13.1.1",
     "openai": "^3.1.0",
     "react": "^18.2.0",
@@ -18,5 +18,8 @@
   },
   "engines": {
     "node": ">=14.6.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
