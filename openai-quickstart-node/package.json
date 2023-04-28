@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build && next export -o build",
     "start": "next start",
-    "deploy": "npm run build && npm run export && touch ./.nojekyll && gh-pages -d out -t true",
+    "deploy": "npm run build && npm run export && touch ./.nojekyll && gh-pages -d Build -t true",
     "export": "next export"
   },
   "dependencies": {
