@@ -1,3 +1,3 @@
 module.exports = {
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/Wishful-Thinking' : '/openai-quickstart-node/Build/',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/Wishful-Thinking/openai-quickstart-node/Build/' : '/',
   };
